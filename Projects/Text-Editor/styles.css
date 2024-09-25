@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: linear-gradient(90deg, rgba(147, 65, 103, 1) 0%, rgba(212, 54, 0, 0.34) 50%, rgba(214, 130, 238, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.header{
+    display: flex;
+    background-color: white;
+    min-width: 600px;
+    /* padding: 6px 0px; */
+    border-radius: 6px;
+}
+.first-box{
+    padding: 6px 4px;
+    margin: 0 8px;
+    border-right: 2px solid rgba(154, 147, 147, 0.939);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-box input{
+    font-size: 24px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.second-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    margin: 0 8px;
+    border-right: 2px solid rgba(154, 147, 147, 0.939);
+}
+.second-box button{
+    font-size: 20px;
+    width: 50px;
+    margin: 0 6px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+}
+button:hover {
+    background-color: #40576d1a;
+}
+
+button.active {
+    background-color: #73b1e333;
+    color: #5271ff;
+}
+.third-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid rgba(154, 147, 147, 0.939);
+    margin: 0px 0px;
+    padding: 8px 4px;
+}
+.third-box button{
+    font-size: 20px;
+    width: 50px;
+    margin: 0 6px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.third-box button:focus {
+    background-color: #73b1e333;
+    color: #5271ff;
+}
+.fourth-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 8px 4px;
+}
+.fourth-box button{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.fourth-box input{
+    width: 40px;
+    height: 40px;
+}
+#textarea1{
+    height: 500px;
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    font-size: 16px;
+}
